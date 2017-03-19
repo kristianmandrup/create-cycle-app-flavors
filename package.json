@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/cyclejs-community/create-cycle-app-flavors#readme",
   "devDependencies": {
-    "lerna": "2.0.0-beta.36"
+    "lerna": "2.0.0-beta.38"
   }
 }

@@ -83,10 +83,15 @@ module.exports = function init (appPath, appName, verbose, originalDirectory) {
         ['es2015', { 'modules': false }]
     ],
     plugins: [
+        // 'transform-custom-element-classes',
+        // 'transform-es2015-classes',
         'syntax-jsx',
-        ['transform-react-jsx', { pragma: 'snabb.html' }]
+        [
+          'transform-react-jsx',
+          { pragma: 'snabb.html' }
+        ]
     ]
-}
+  }
 
   fs.writeFileSync(
     appPackageJson,
